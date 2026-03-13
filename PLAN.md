@@ -124,11 +124,12 @@ stock_checker/
 ### ✅ Phase 4: ニュース統合 (完了 2026-03-12)
 1. 銘柄詳細画面に関連ニュース表示 (useStockNews + NewsItem)
 
-### 🔲 Phase 5: デプロイ・仕上げ (未着手)
-1. バックエンドをRenderにデプロイ
-2. cron-job.org でRenderスリープ防止 (無料pingサービス)
-3. Expoでモバイルビルド (EAS Build 無料枠)
-4. Web版はVercel or Expo Publish
+### 🔄 Phase 5: デプロイ・仕上げ (進行中)
+1. ✅ バックエンドをRenderにデプロイ (https://stock-checker-i80s.onrender.com)
+2. ✅ GitHubリポジトリ作成 (Dan-fire2030/stock-checker)
+3. ✅ フロントのAPIURL本番に更新
+4. 🔲 cron-job.org でRenderスリープ防止 (無料pingサービス)
+5. 🔲 iPhoneネイティブ対応 (EAS Build or Expo SDK互換待ち)
 
 ---
 

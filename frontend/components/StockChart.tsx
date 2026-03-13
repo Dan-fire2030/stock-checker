@@ -83,9 +83,9 @@ export function StockChart({ data, height = 200 }: Props) {
   // Y軸ラベル（最高値・中間・最安値）
   const chartH = height - PADDING.top - PADDING.bottom;
   const yLabels = [
-    { y: PADDING.top, value: maxVal },
-    { y: PADDING.top + chartH / 2, value: (maxVal + minVal) / 2 },
-    { y: PADDING.top + chartH, value: minVal },
+    { y: PADDING.top, value: maxVal! },
+    { y: PADDING.top + chartH / 2, value: (maxVal! + minVal!) / 2 },
+    { y: PADDING.top + chartH, value: minVal! },
   ];
 
   return (
